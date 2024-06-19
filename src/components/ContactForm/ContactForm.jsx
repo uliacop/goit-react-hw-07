@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { useId } from "react";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
 
 const phoneRegExp = /^\d{3}-\d{2}-\d{2}$/;
 const userSchema = Yup.object().shape({
