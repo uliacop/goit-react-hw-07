@@ -1,6 +1,4 @@
-.body {
+body {
   min-width: 1200px;
-}
-#root {
   background-color: rgb(218, 186, 218);
 }
